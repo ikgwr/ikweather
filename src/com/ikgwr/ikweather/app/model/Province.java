@@ -13,19 +13,20 @@ public class Province {
 		this.id = id;
 	}
 
-	public String getProvince_name() {
+	public String getProvinceName() {
 		return provinceName;
 	}
 
-	public void setProvince_name(String province_name) {
-		this.provinceName = province_name;
+	public void setProvinceName(String provinceName) {
+		this.provinceName = provinceName;
 	}
 
-	public String getProvince_code() {
+	public String getProvinceCode() {
 		return provinceCode;
 	}
 
-	public void setProvince_code(String province_code) {
-		this.provinceCode = province_code;
+	public void setProvinceCode(String provinceCode) {
+		this.provinceCode = provinceCode;
 	}
+
 }
